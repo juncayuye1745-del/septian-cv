@@ -60,6 +60,13 @@
     .contact-card small{color:#aaa}
     .contact-card h3{font-size:25px;margin:5px 0 8px}
     .contact-card:hover{transform:translateY(-2px)}
+    .link-preview{display:flex;align-items:center;gap:12px;margin-top:12px;padding:12px 14px;border:1px solid var(--line);background:var(--surface);border-radius:14px;text-decoration:none;transition:.2s ease}
+    .link-preview:hover{transform:translateY(-2px);border-color:var(--accent)}
+    .link-preview .icon{width:34px;height:34px;display:grid;place-items:center;border-radius:10px;background:var(--accent);color:#fff;font-weight:700;flex:0 0 auto}
+    .link-preview .preview-text{min-width:0}
+    .link-preview strong{display:block;font-size:14px}
+    .link-preview span{display:block;color:var(--muted);font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
     footer{padding:35px 0 55px;color:var(--muted);font-size:14px;display:flex;justify-content:space-between;gap:20px}
     @media(max-width:800px){
       .navlinks{display:none}
@@ -114,6 +121,12 @@
             <div class="meta">Pendidikan</div>
             <h3>SMAN 76 Jakarta</h3>
             <p>Ilmu Pengetahuan Alam (IPA) · Lulus 05 Mei 2023</p>
+            <a class="link-preview" href="https://maps.app.goo.gl/JfPzEDswn2H5MTjF8" target="_blank" rel="noopener">
+              <div class="icon">⌖</div><div class="preview-text">
+                <strong>Lokasi Pendidikan · Google Maps ↗</strong>
+                <span>maps.app.goo.gl/JfPzEDswn2H5MTjF8</span>
+              </div>
+            </a>
           </div>
           <div class="card">
             <div class="meta">Domisili</div>
@@ -135,6 +148,12 @@
             <div>
               <h3>Store Crew</h3>
               <div class="company">PT. Niceso Sukses Indonesia, Jakarta</div>
+              <a class="link-preview" href="https://maps.app.goo.gl/WHQXy1yb7tkeyUWb7" target="_blank" rel="noopener">
+                <div class="icon">⌖</div><div class="preview-text">
+                  <strong>Lokasi Kerja · Google Maps ↗</strong>
+                  <span>maps.app.goo.gl/WHQXy1yb7tkeyUWb7</span>
+                </div>
+              </a>
               <ul>
                 <li>Bertanggung jawab terhadap kelancaran operasional toko dan memberikan pelayanan yang baik kepada pelanggan.</li>
                 <li>Mengelola dan memantau stok barang agar tetap akurat dan sesuai dengan kebutuhan toko.</li>
@@ -148,6 +167,12 @@
             <div>
               <h3>Admin Operasional</h3>
               <div class="company">Pos Lion Parcel Tipar Cakung, Jakarta</div>
+              <a class="link-preview" href="https://maps.app.goo.gl/APW9uZVcfNakUmNJ7" target="_blank" rel="noopener">
+                <div class="icon">⌖</div><div class="preview-text">
+                  <strong>Lokasi Kerja · Google Maps ↗</strong>
+                  <span>maps.app.goo.gl/APW9uZVcfNakUmNJ7</span>
+                </div>
+              </a>
               <ul>
                 <li>Menginput data paket ke dalam sistem dengan teliti dan memastikan data sesuai dengan paket yang diterima.</li>
                 <li>Mengatur dan memantau paket yang akan diambil oleh kurir (pickup).</li>
@@ -161,6 +186,12 @@
             <div>
               <h3>Karang Taruna</h3>
               <div class="company">Ketua – Karang Taruna Sukapura RT 011/001</div>
+              <a class="link-preview" href="https://www.instagram.com/hometownsebelas?stkn=azR0aHE2d2xmYmZx" target="_blank" rel="noopener">
+                <div class="icon">◎</div><div class="preview-text">
+                  <strong>@hometownsebelas · Instagram ↗</strong>
+                  <span>instagram.com/hometownsebelas</span>
+                </div>
+              </a>
               <p style="color:var(--muted);margin:0">Periode Aktif: 2023 – Sekarang</p>
               <p style="color:var(--muted);margin:0">Berperan aktif dalam organisasi kepemudaan tingkat RT dengan fokus pada penguatan solidaritas serta menjalin hubungan baik antarwarga untuk menciptakan lingkungan yang aktif dan harmonis.</p>
             </div>
